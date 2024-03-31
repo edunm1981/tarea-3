@@ -52,4 +52,53 @@ body {
 }
 /* aqui termina la card */
 
+/*  */
+.icono{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.iconoa:hover{
+    color: blue;
+    border: solid 2px blue;
+}
+.iconob:hover{
+    color: blue;
+    border: solid 2px blue;
+}
+.iconoc:hover{
+    color: blue;
+    border: solid 2px blue;
+}
+.card p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.montes{
+    display: flex;
+    border: solid 3px rgba(51,51,51,0.2);
+    border-radius: 15px;
+    width: 750px;
+}
+button {
+    width: 20%;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    margin: 30px;
+}
+.div {
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: #0056b3;
+    transition: all 0.3s;
+}
 
