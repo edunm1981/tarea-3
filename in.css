@@ -1,0 +1,22 @@
+/* aqui inicia la card */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui;
+}
+.border-radius-12 {
+    border-radius: 12px;
+}
+.container-card {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container-carduno{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
